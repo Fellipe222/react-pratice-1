@@ -1,0 +1,82 @@
+main{
+    background-color: aquamarine;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    margin: 0;
+}
+.wrapper {
+    background-color: rgb(107, 36, 173);
+    border-style:solid;
+    border-radius: 1rem;
+    width: 400px;
+    margin: auto;
+}
+header{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.about{
+    color: aliceblue;
+    font-family: 'Roboto', sans-serif;
+    text-align:justify;
+    padding: 20px;
+}
+.profile_wrapper{
+    margin: 0;
+    background-color: rgb(80, 72, 101);
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.profile_wrapper>h2{
+    letter-spacing: 2px;
+}
+.profile_img {
+    border-radius: 50%;
+}
+.contacts {
+    display: flex;
+    align-items: center;
+    margin: 0;
+    height: 40px;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+}
+.contacts>a>div{
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top: 20%;
+    height:24px
+}
+.contacts>a{
+    text-decoration: none;
+    color: black;
+    background-color: aliceblue;
+    width: 40%;
+    height: 100%;
+    margin: auto;
+    border-radius: 10px; 
+    font-weight: 600;
+}
+.contacts>a:hover{
+    color: aliceblue;
+}
+.email:hover{ 
+     background-color: coral;
+}
+.linkedin:hover{
+    background-color: #0A66C2;
+}
+footer{
+    background-color: rgb(80, 72, 101);
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 10px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+footer>a>img{
+    filter: invert(100%);
+    -webkit-filter: invert(100%);
+}
